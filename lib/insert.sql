@@ -28,5 +28,5 @@ INSERT INTO characters (name, motto, species, author_id) VALUES
   ("Daenerys Targaryen", "My character development goes down the drain", "Human", 1),
   ("Petyr Baelish", "Chaos is a ladder", "Human", 1);
   
-INSERT INTO character_books (book_id, character_id) VALUES 
-  ();
+-- INSERT INTO character_books (book_id, character_id) VALUES 
+--   ();
