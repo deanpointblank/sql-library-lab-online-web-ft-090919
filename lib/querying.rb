@@ -19,7 +19,7 @@ end
 
 def select_value_and_count_of_most_prolific_species
   <<-SQL
-  SELECT characters.species COUNT (characters.species)
+  SELECT characters.species COUNT(characters.species)
   AS amount
   FROM characters
   GROUP BY characters.species
