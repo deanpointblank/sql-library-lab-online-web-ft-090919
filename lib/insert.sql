@@ -28,7 +28,5 @@ INSERT INTO authors (name) VALUES
   ("George R.R. Martin"),
   ("Suzanne Collins");
   
-
-  
--- INSERT INTO character_books (book_id, character_id) VALUES 
---   ();
+INSERT INTO character_books (book_id, character_id) VALUES 
+  ();
