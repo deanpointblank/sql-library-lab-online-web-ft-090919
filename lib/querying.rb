@@ -30,7 +30,8 @@ end
 
 def select_name_and_series_subgenres_of_authors
   <<-SQL
-  SELECT 
+  SELECT series.title, series.subgenre, authors.name
+  FROM 
   SQL
 end
 
