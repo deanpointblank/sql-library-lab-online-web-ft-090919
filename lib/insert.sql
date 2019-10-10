@@ -24,9 +24,9 @@ INSERT INTO subgenres (name) VALUES
   ("Fantasy"),
   ("Science Fiction");
   
--- INSERT INTO authors (name) VALUES 
---   ("George R.R. Martin"),
---   ("Suzanne Collins");
+INSERT INTO authors (name) VALUES 
+  ("George R.R. Martin"),
+  ("Suzanne Collins");
   
 
   
