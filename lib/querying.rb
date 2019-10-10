@@ -11,7 +11,7 @@ def select_name_and_motto_of_char_with_longest_motto
   <<-SQL
   SELECT characters.name, characters.motto
   FROM characters
-  ORDER BY characters.motto DESC
+  ORDER BY characters.motto
   SQL
 end
 
