@@ -1,4 +1,7 @@
-INSERT INTO series VALUE
+INSERT INTO series (title, author_id, subgenre_id) VALUE ();
+INSERT INTO sungenres (name) VALUE ();
+INSERT INTO authors (name) VALUE ();
+INSERT INTO books (title, year, series_id) VALUE ():
 
 
 
