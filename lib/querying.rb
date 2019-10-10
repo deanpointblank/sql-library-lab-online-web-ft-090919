@@ -43,7 +43,7 @@ def select_series_title_with_most_human_characters
   <<-SQL
   SELECT series.title, COUNT(characters.species)
   FROM series
-  JOIN 
+  JOIN series.
   SQL
 end
 
