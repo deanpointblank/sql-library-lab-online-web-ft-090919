@@ -8,10 +8,10 @@ INSERT INTO subgenres (name) VALUES
   
 INSERT INTO authors (name) VALUES 
   ("George R.R. Martin"),
-  ("Susan Collins");
+  ("Suzanne Collins");
   
 INSERT INTO books (title, year, series_id) VALUES 
-  ();
+  ("The Hunger Games");
   
 INSERT INTO characters (name, motto, species, author_id) VALUES 
   ();
