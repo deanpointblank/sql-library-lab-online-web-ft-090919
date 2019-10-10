@@ -19,10 +19,13 @@ INSERT INTO books (title, year, series_id) VALUES
   ("A storm of Swords", 2000, 1);
   
 INSERT INTO characters (name, motto, species, author_id) VALUES 
-  ("", "", "", 2);
-  ("", "", "", 2);
-  ("", "", "", 2);
-  ("", "", "", 2);
+  ("Katniss Everdeen", "I volunteer as tribute", "Human", 2);
+  ("Peeta Mellark", "I make-a da bread", "Human", 2);
+  ("Gale Hawthorne", "The capitol is terrible", "Human", 2);
+  ("Primrose Everdeen", "I die in the second book", "Human", 2);
+  ("Jon Snow", "", "", 1);
+  ("Ned Stark", "", "", 1);
+  ("", "", "", 1);
   ("", "", "", 1);
   
 INSERT INTO character_books (book_id, character_id) VALUES 
