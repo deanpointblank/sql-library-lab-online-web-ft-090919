@@ -44,9 +44,9 @@ def select_series_title_with_most_human_characters
   SELECT series.title, characters.species, COUNT(characters.species)
     AS total
   FROM series
-  JOIN  authors
-    ON series.author_id = authors.id
   JOIN authors
+    ON series.author_id = authors.id
+  JOIN characters
     ON authors.id = characters.author_id
   ORDER BY total
   SQL
