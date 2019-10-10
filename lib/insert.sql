@@ -30,10 +30,5 @@ INSERT INTO authors (name) VALUES
   
 INSERT INTO character_books (book_id, character_id) VALUES 
   (1, 1), (2, 1), (3,1), (1, 4), (2, 3), (1, 3), (2, 3), (4, 3),
-  (4), (5), (6), (4), (5), (4), (5), (6);
+  (4, 5), (5, 5), (6, 5), (4, 6), (5, 8), (4, 7), (5, 7), (6, 7);
   
--- CREATE TABLE character_books (
---   id INTEGER PRIMARY KEY,
---   book_id INTEGER,
---   character_id INTEGER
--- );
