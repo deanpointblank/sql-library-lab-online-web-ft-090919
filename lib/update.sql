@@ -1,1 +1,1 @@
-UPDATE ca
+UPDATE charaters 
