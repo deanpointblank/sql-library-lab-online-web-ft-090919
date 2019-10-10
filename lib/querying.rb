@@ -41,13 +41,14 @@ end
 
 def select_series_title_with_most_human_characters
   <<-SQL
-  SELECT series.title, characters.species, COUNT(characters.species)
-    AS total
+  SELECT series.title
   FROM series
   JOIN authors
     ON series.author_id = authors.id
   JOIN characters
     ON authors.id = characters.author_id
+  WHERE , characters.species, COUNT(characters.species)
+    AS total
   ORDER BY total DESC
   SQL
 end
