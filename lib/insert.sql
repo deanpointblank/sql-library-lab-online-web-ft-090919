@@ -1,1 +1,1 @@
-UPDATE characters
+INSERT INTO series VALUE
