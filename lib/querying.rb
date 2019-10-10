@@ -33,7 +33,7 @@ def select_name_and_series_subgenres_of_authors
   SELECT series.title, series.subgenre_id, authors.name
   FROM series
   JOIN authors
-  ON series.author_id = author.id
+  ON series.author_id = authors.id
   SQL
 end
 
