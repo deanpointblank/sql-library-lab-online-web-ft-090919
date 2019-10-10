@@ -2,7 +2,7 @@ CREATE TABLE series (
   id INTEGER PRIMARY KEY,
   title TEXT,
   author TEXT,
-  sub-genre TEXT
+  sub_genre TEXT
 );
 
 CREATE TABLE sub-genre (
