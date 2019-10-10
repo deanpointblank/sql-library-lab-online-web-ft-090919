@@ -23,7 +23,8 @@ def select_value_and_count_of_most_prolific_species
   AS amount
   FROM characters
   GROUP BY characters.species
-  ORDER BY amount
+  ORDER BY amount DESC
+  LIMIT 1
   SQL
 end
 
